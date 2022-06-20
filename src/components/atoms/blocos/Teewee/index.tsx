@@ -1,9 +1,8 @@
 import React from "react";
-
-import { Container } from "./styles";
+import { TeeweeContainer } from "../styles";
 
 const Teewee: React.FC = () => {
-    return <Container />;
+    return <TeeweeContainer />;
 };
 
 export default Teewee;

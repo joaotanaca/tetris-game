@@ -1,9 +1,15 @@
 import React from "react";
-
-import { Container } from "./styles";
+import { HeroContainer } from "../styles";
 
 const Hero: React.FC = () => {
-    return <Container />;
+    return (
+        <HeroContainer>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </HeroContainer>
+    );
 };
 
 export default Hero;

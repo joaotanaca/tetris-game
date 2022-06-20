@@ -1,9 +1,15 @@
 import React from "react";
+import { RickyContainer } from "../styles";
 
-import { Container } from './styles';
-
-const OrangeRicky: React.FC = () => {
-    return <Container />;
+const RightRicky: React.FC = () => {
+    return (
+        <RickyContainer>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div className="col-start-3"></div>
+        </RickyContainer>
+    );
 };
 
-export default OrangeRicky;
+export default RightRicky;
