@@ -11,8 +11,9 @@ import styled from "styled-components";
 // `;
 
 export const HeroContainer = styled.div.attrs({
-    className: "col-span-4 row-span-1 grid grid-cols-4 grid-rows-1",
-})`
+    className: `col-span-4 row-span-1 grid grid-cols-4 grid-rows-1`,
+})<{ positionClass?: number }>`
+    grid-column-start: ${({ positionClass }) => positionClass};
     div {
         background-color: blue;
     }

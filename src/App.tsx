@@ -1,13 +1,13 @@
 import styled from "styled-components";
-import {
-    Hero,
-    LeftRicky,
-    LeftZ,
-    RightRicky,
-    RightZ,
-    Smashboy,
-    Teewee,
-} from "./components/atoms";
+// import {
+//     Hero,
+//     LeftRicky,
+//     LeftZ,
+//     RightRicky,
+//     RightZ,
+//     Smashboy,
+//     Teewee,
+// } from "./components/atoms";
 
 import { Bloco } from "./components/organisms";
 
@@ -23,13 +23,13 @@ function App() {
     return (
         <Screen>
             <Bloco />
-            <Hero />
+            {/* <Hero  />
             <RightZ />
             <RightRicky />
             <LeftZ />
             <LeftRicky />
             <Smashboy />
-            <Teewee />
+            <Teewee /> */}
         </Screen>
     );
 }
